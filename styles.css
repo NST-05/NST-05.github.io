@@ -1,0 +1,191 @@
+body {
+  background-color: #d9d9d9; /*Bg color  body*/
+}
+p {
+  font-family: serif;
+  font-size: 24px;
+  color: #f00;
+}
+li {
+  color: #a00;
+}
+td {
+  font-family: Verdana;
+  font-size: 18px;
+  color: #5A7DDD;
+}
+.card .imgUtil {
+  border-radius: 10px;
+  opacity: 0.85;
+  border: 2px solid #999999;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+.DisciplineDeInteres {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 750px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+table {
+ width: 100%;
+ border-collapse: collapse;
+ margin: 20px 0;
+ font-family: Arial, sans-serif;
+ font-size: 16px;
+ text-align: left;
+ background-color: #ffffff;
+ color: #333333;
+}
+
+th {
+ background-color: #333333;
+ color: #ffffff;
+ padding: 10px;
+}
+
+td {
+ padding: 10px;
+ border-bottom: 1px solid #dddddd;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+.pasiuni {
+ width: 300px;
+ margin: 20px auto;
+ padding: 20px;
+ background-color: ##E0B1B1;
+ border: 2px solid #dddddd;
+ border-radius: 14px;
+ font-family: Arial, sans-serif;
+ color: #333333;
+ box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.educatie {
+ width: 300px;
+ text-align: center;
+ margin: 20px auto;
+ padding: 20px;
+ background-color: ##FFCECE;
+ border: 3px solid #dddddd;
+ border-radius: 12px;
+ font-family: Arial, sans-serif;
+ color: #333333;
+ box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+ list-style-type: none;
+ padding: 0;
+ margin: 0;
+}
+
+li {
+ padding: 10px;
+ border-bottom: 1px solid #dddddd;
+ font-size: 16px;
+}
+
+.back-container {
+ display: flex;
+ align-items: center;
+ padding: 10px;
+ margin: 0 auto;
+ justify-content: center;
+ border: 1px solid #ddd;
+ width: 200px;
+ border-radius: 5px;
+}
+
+.back-button {
+ padding: 8px 12px;
+ font-size: 16px;
+ background-color: #f0f0f0;
+ border: 1px solid #333;
+ cursor: pointer;
+ display: flex;
+ align-items: center;
+}
+/*style butoane pagina principala*/
+button:hover, a:hover {
+  opacity: 0.7;
+}
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+.Colegi {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 750px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+.ColegClickable {
+ display: block;
+ margin: 0 auto;
+ padding: 10px 20px;
+ font-size: 16px;
+ background-color: #f0f0f0;
+ border: 1px solid #333;
+ cursor: pointer;
+}
+.card .imgcoperta {
+  border-radius: 20px;
+  opacity: 0.88;
+  height: 300px;
+  width: 300px;
+}
+#titlu-catalog {
+    font-size: 36px;
+    font-family: fantasy;         
+    color: #4a90e2;         
+    text-align: center;     
+    font-weight: bold;       
+    margin-top: 20px;        
+    letter-spacing: 8px;     
+}
+#titlu-catalog:hover {     
+    color: #f0a500;    
+}
