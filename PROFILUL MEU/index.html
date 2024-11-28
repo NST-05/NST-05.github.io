@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script type="text/javascript">
+function switchprofile(argument){
+    document.getElementById("nametag").innerHTML = "Nistor Daniel PFA"
+    document.getElementById("realizari").innerHTML = "Programare C/C++, Java, Activitati in retelistica"
+    document.getElementById("imgg").src = "imagini/img.png"  
+    let body = document.getElementById("bg");
+    body.className = "body2";   
+    let titlu = document.getElementById("titlu");
+    titlu.className = "title2";     
+    let img = document.getElementById("imgg");
+    img.className = "imgMARE2";         
+}
+</script>    
+<style>
+.body1 {
+    background-color: #d9d9d9;
+}
+.body2 {
+    background-color: #EDEDED;
+}
+.card h1{
+	color: #E34343;
+	font-size: 58px;
+}
+.imgMARE {
+    width: 100%; 
+    height: auto; 
+    border-radius: 10px; 
+    margin-bottom: 15px; 
+	opacity: 0.75;
+}
+.imgMARE2 {
+    width: 100%; 
+    height: auto; 
+    border: 5px solid black;
+    border-radius: 25px; 
+    margin-bottom: 15px; 
+    opacity: 0.95;
+}
+p {
+	font-family:Arial; 
+	font-size: 19px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+.DisciplineDeInteres td {
+	font-family:Verdana;
+	font-size: 12px;
+	color: #E34343;
+}
+.DisciplineDeInteres {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 750px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+table {
+ width: 100%;
+ border-collapse: collapse;
+ margin: 20px 0;
+ font-family: Arial, sans-serif;
+ font-size: 16px;
+ text-align: left;
+ background-color: #ffffff;
+ color: #333333;
+}
+
+th {
+ background-color: #333333;
+ color: #ffffff;
+ padding: 10px;
+}
+
+td {
+ padding: 10px;
+ border-bottom: 1px solid #dddddd;
+}
+
+.title1 {
+  color: grey;
+  font-size: 18px;
+}
+.title2 {
+  color: #808080;
+  font-size: 25px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+.pasiuni {
+ width: 300px;
+ margin: 20px auto;
+ padding: 20px;
+ background-color: #BE9393; 
+ border: 2px solid black;
+ border-radius: 14px;
+ font-family: Arial, sans-serif;
+ color: #333333;
+ box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.educatie {
+ width: 300px;
+ text-align: center;
+ margin: 20px auto;
+ padding: 20px;
+ background-color: #F8B9B9; 
+ border: 1px solid #dddddd;
+ border-radius: 8px;
+ font-family: Arial, sans-serif;
+ color: #333333;
+ box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+ list-style-type: none;
+ padding: 0;
+ margin: 0;
+}
+
+li1 {
+ padding: 10px;
+ border-bottom: 1px solid #dddddd;
+ font-size: 16px;
+}
+</style>
+</head>
+<body class="body1" id="bg">
+
+<h2 style="text-align:center">Profil Utilizator</h2>
+
+<div class="card">
+  <img src="imagini/IMG_2888.jpg" id="imgg" alt="nst" style="width:100%" class="imgMARE">
+  <h1 id="nametag" id="titlu">Nistor Daniel</h1>
+  <p class="title1" id="titlu">Student An I - ETTI</p>
+</div>
+<div class="DisciplineDeInteres">
+<table border="1">
+    <tr>
+        <th>Disciplina</th>
+        <th>Perioada studiu</th>
+        <th>Link</th>
+    </tr>
+    <tr>
+        <td>Retele de calculatoare</td>
+        <td>Anul 3</td>
+        <td>https://bit.ly/3AJh0Wy</td>
+    </tr>
+    <tr>
+        <td>Algebra liniara si geometrie analitica si diferentiala</td>
+        <td>Anul 1</td>
+        <td>https://bit.ly/48GS0fl</td>
+    </tr>
+    <tr>
+        <td>Inginerie software</td>
+        <td>Anul 2</td>
+        <td>https://bit.ly/4fFYrBL</td>
+    </tr>
+</table>
+</div>
+<div class="pasiuni">
+<h3><center> Hobbyuri</center></h3>
+    <ul>
+        <li>PC-uri</li>
+        <li>Gaming</li>
+        <li>Baschet</li>
+    </ul>
+</div>
+<div class="educatie">
+<h3><center> Citat educatie</center></h3>
+        <p id="realizari">„Cel care face greșeli și nu le corectează comite o altă greșeală.” – Confucius</p>
+</div>
+<button id="" onclick="switchprofile()">
+    Alta Viata
+</button>
+</body>
+</html>
